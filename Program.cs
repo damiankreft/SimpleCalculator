@@ -15,7 +15,7 @@ namespace EmailTask3
                 Console.Write("Select operation and press <ENTER> to confirm: ");
                 string operation = Console.ReadLine();
 
-                double result = CalculationFactory.createCalculation(operation).GetValue(Double.Parse(valA), Double.Parse(valB));
+                double result = CalculationFactory.CreateCalculation(operation).GetValue(Double.Parse(valA), Double.Parse(valB));
                 Console.WriteLine($"Operation value: {result}");
             }
             catch(Exception calculationException)

@@ -2,7 +2,7 @@
 {
     public class CalculationFactory
     {
-        public static Interfaces.ICalculable createCalculation(string operation)
+        public static Interfaces.ICalculable CreateCalculation(string operation)
         {
             Interfaces.ICalculable calculable = null;
             switch(operation)
